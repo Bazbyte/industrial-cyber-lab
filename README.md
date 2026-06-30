@@ -52,3 +52,9 @@ graph TD
 - [X] Simulate structured status data streams from physical endpoints tracking joint velocities (rad/s), motor temperatures (°C), and continuous current draw (Amps).
 - [X] Structure raw logging output layouts cleanly to model standard industrial data acquisition setups using Python data pipelines.
 
+### 🤖 Phase 2: Predictive Machine Learning & Anomaly Injection
+
+- [X] Train an unsupervised Python ML model on baseline telemetry parameters to lock in a normal "heartbeat" profile for the plant assets.
+- [X] Inject deliberate cybersecurity vectors (such as a command-injection attack that alters motor velocity ceilings or rapid-fire network scans).
+- [X] Leverage the predictive model to output deviation markers, flagging hidden attacks before traditional threshold alerts are triggered.
+
